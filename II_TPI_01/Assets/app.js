@@ -19,7 +19,9 @@ let vysledok01 = prvaPremena + druhaPremena;
 let a = 15 + 3 * (4 - 8 / 2);
 let b = ((150.2 / 8) * (18.3 - 20.1)) / 3;
 let c = 3 ** 2 + 8 - 31 / 8;
-
-alert(a);
-alert(b);
-alert(c);
+let prikaldA = "15 + 3 * (4 - 8 / 2)";
+let prikaldB = "((150.2 / 8) * (18.3 - 20.1)) / 3";
+let prikaldC = "3 ** 2 + 8 - 31 / 8";
+alert(prikaldA + " = " + a);
+alert(prikaldB + " = " + b);
+alert(prikaldC + " = " + c);
