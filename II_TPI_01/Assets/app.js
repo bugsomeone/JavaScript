@@ -1,12 +1,14 @@
-alert("Life Is Gud");
+//alert("Life Is Gud");
 
 let prvaPremena = 3;
 const druhaPremena = 7;
 
-prvaPremenna = 20;
+//let vysledok = 3 + 7;
+let vysdledok = prvaPremena + druhaPremena;
 
-const meno = 'Richard' ;
-
-let vysledokScitania = prvaPremenna + druhaPremenna;
-
-vysledok(meno);
+alert("3 + 7");
+alert(3 + 7);
+alert();
+alert(prvaPremena + druhaPremena);
+alert();
+alert(vysledok01);
