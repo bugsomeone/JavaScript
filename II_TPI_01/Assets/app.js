@@ -1,7 +1,5 @@
-//alert("Prvy Alert Richard Sedlak")
+//alert("Life Is Roblox");
 
 const prvaPremena = 3;
 const druhaPremena = 7;
-let vysledokScitania = prvaPremena + druhaPremena;
 
-vysledok(vysledokScitania);
