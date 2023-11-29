@@ -29,21 +29,21 @@ alert(prikaldC + " = " + c);
 */
 
 let mojVek = 17;
-let meno = 'Richard';
-let priezvisko = 'Sedlak';
+let meno = "Richard";
+let priezvisko = "Sedlak";
 let mojeMeno = meno + "" + priezvisko;
-let ulica = 'Sasinková';
-let mesto = 'Kopčany';
-let PSČ = '908 48';
-let mojaAdresa =  ulica + " " + mesto + " " + PSČ;
-let adresaSkoly = 'Holíč 908 51; Námestie sv. Martina 5';
-/**alert(mojaAdresa);*/ 
+let ulica = "Sasinková";
+let mesto = "Kopčany";
+let PSČ = "908 48";
+let mojaAdresa = ulica + " " + mesto + " " + PSČ;
+let adresaSkoly = "Holíč 908 51; Námestie sv. Martina 5";
+/**alert(mojaAdresa);*/
 
 console.log(mojaAdresa.toLowerCase());
 console.log(mojaAdresa.toUpperCase());
 console.log(mojeMeno.substring(2));
 console.log(mojeMeno.repeat(3));
-console.log(mojeMeno.replace("Richard", 'Radek'));
+console.log(mojeMeno.replace("Richard", "Radek"));
 /**
 console.log(mojaAdresa);
 console.log('moje meno je vid dalsi riadok');
@@ -51,3 +51,9 @@ console.log(mojeMeno);
 console.log(console)
 console.log(mojeMeno.endsWith('ak'))
 console.log(mojeMeno.indexOf('k'))*/
+
+function MojaPrvaFukcia() {
+  alert("toto je moja prva funkcia");
+  console.log("TOTO JE MOJA PRVA FUNKCIA!!!");
+}
+
